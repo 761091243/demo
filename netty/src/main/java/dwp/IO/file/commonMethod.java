@@ -19,7 +19,7 @@ public class commonMethod {
      */
     @Test
     public void build() throws IOException {
-        File f = new File("E:\\java\\other\\text1.txt");
+        File f = new File("src\\main\\resources\\file\\putStream\\a.txt");
         System.out.println("文件绝对路径:"+f.getAbsolutePath());
         System.out.println("文件构造路径:"+f.getPath());
         System.out.println("文件名称:"+f.getName());
@@ -37,7 +37,7 @@ public class commonMethod {
      */
     @Test
     public void recursion(){
-        File file = new File("F:\\IdeaProject");
+        File file = new File("src\\main\\resources\\file\\putStream");
         if (file.exists()){
             reFile(file);
             System.out.println("文件数量" + fileNum);

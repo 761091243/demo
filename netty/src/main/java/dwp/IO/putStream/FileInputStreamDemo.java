@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * @description: 文件输入流
+ * @description: 字节输入流
  * @author: Dunn
  * @create: 2021-08-10 15:11
  */
@@ -20,7 +20,7 @@ public class FileInputStreamDemo {
      */
     @Test
     public void demo() throws IOException {
-        FileInputStream fis = new FileInputStream("src\\main\\resources\\file\\b.txt");
+        FileInputStream fis = new FileInputStream("src\\main\\resources\\file\\putStream\\b.txt");
         byte[] bytes = new byte[2];
         int len;
         while ((len = fis.read(bytes)) != -1){
@@ -35,9 +35,9 @@ public class FileInputStreamDemo {
     @Test
     public void  demo1() throws IOException {
         // 创建文件输入流
-        FileInputStream fis = new FileInputStream("src\\main\\resources\\file\\1.jpg");
+        FileInputStream fis = new FileInputStream("src\\main\\resources\\file\\putStream\\1.jpg");
         // 创建文件输出流
-        FileOutputStream fos = new FileOutputStream("src\\main\\resources\\file\\2.jpg");
+        FileOutputStream fos = new FileOutputStream("src\\main\\resources\\file\\putStream\\2.jpg");
         // 文件复制
         byte[] bytes = new byte[1024];
         int len;

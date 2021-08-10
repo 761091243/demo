@@ -19,7 +19,7 @@ public class ReaderReaderDome {
      */
     @Test
     public void demo1() throws IOException {
-        FileReader fr = new FileReader("src\\main\\resources\\file\\a.txt");
+        FileReader fr = new FileReader("src\\main\\resources\\file\\putStream\\a.txt");
         int len;
         char[] cbuf = new char[2];
         while ((len = fr.read(cbuf)) != -1) {
