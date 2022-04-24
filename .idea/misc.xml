@@ -6,9 +6,9 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/netty/pom.xml" />
         <option value="$PROJECT_DIR$/designPattern/pom.xml" />
         <option value="$PROJECT_DIR$/utils/pom.xml" />
+        <option value="$PROJECT_DIR$/netty/pom.xml" />
       </list>
     </option>
   </component>
